@@ -7,15 +7,18 @@
     <title>Document</title>
 </head>
 <body>
+    <button id="CambiaTema" class="cambioTema">INTERRUTTORE GENERALE</button>
     
+    <div class="domotica">
+        <div class="lampada" id="lamp"></div>
 
-    <div class="lampada" id="lamp"></div>
+        <button onclick="luceCaldaFn()">LUCE CALDA</button>
+        <button onclick="luceFreddaFn()">LUCE FREDDA</button>
+        <button onclick="luceRGBFn()">LUCE RGB</button>
 
-    <button onclick="luceCaldaFn()">LUCE CALDA</button>
-    <button onclick="luceFreddaFn()">LUCE FREDDA</button>
-    <button onclick="luceRGBFn()">LUCE RGB</button>
-
-    <input type="range" id="slider" oninput="sliderFn()" value="opacita" max="1" min="0" step="0.01">
+        <input type="range" id="slider" oninput="sliderFn()" value="opacita" max="1" min="0" step="0.01">
+    </div>
+    
 
     <script src="script.js"></script>
 </body>

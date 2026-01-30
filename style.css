@@ -1,13 +1,15 @@
-body {
+.domotica {
   display: flex;
-  justify-content: center; /* Centra orizzontalmente */
-  align-items: center;     /* Centra verticalmente */
-  height: 100vh;           /* Opzionale: altezza pari alla viewport */
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
 }
 
-button{
-    display: block;
+
+.cambioTema{
+    margin-bottom: 20px;
 }
+
 
 
 .lampada{
