@@ -36,7 +36,32 @@
     background-color: rgb(233, 233, 198);
 }
 
-.dark-theme{
+.rosso{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+
+.verde{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 0);
+}
+
+.blu{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 255);
+}
+
+.dark-theme {
     background-color: #121212;
     color: white;
 }
+
