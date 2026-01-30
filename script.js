@@ -73,3 +73,8 @@ function setBluFn(){
     lamp.classList.add("blu")
 
 }
+let timer;
+function setTimerFn(){
+    timer = document.getElementById("timer").value;
+    document.getElementById("timerDisplay").innerText = `La lampada si spegnerà tra ${timer} minuti`;
+}
