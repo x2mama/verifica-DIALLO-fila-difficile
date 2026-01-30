@@ -19,3 +19,7 @@ function sliderFn(){
     lamp.style.opacity = this.value;
   });
 }
+
+function changeThemeFn(){
+    document.body.classList.toggle("dark-theme");
+}

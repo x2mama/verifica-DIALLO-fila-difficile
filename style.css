@@ -35,3 +35,8 @@
     border-radius: 50%;
     background-color: rgb(233, 233, 198);
 }
+
+.dark-theme{
+    background-color: #121212;
+    color: white;
+}
