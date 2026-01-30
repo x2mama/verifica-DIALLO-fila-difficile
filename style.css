@@ -17,3 +17,19 @@ button{
     border-radius: 50%;
     background-color: grey;
 }
+
+.luceCalda{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.luceFredda{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 198);
+}

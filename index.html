@@ -9,11 +9,13 @@
 <body>
     
 
-    <div class="lampada"></div>
+    <div class="lampada" id="lamp"></div>
 
     <button onclick="luceCaldaFn()">LUCE CALDA</button>
     <button onclick="luceFreddaFn()">LUCE FREDDA</button>
     <button onclick="luceRGBFn()">LUCE RGB</button>
+
+    <input type="range" id="slider" oninput="sliderFn()" value="opacita" max="1" min="0" step="0.01">
 
     <script src="script.js"></script>
 </body>
