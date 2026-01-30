@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center;     /* Centra verticalmente */
+  height: 100vh;           /* Opzionale: altezza pari alla viewport */
+}
+
+button{
+    display: block;
+}
+
+
+.lampada{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey;
+}
